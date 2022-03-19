@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Mega Q Mart</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="icon" href="images/icon.png">
+  
+      
+</head>
+
+
+<body>
+  <!-- Header -->
+  <div class="container">
+    <div class="navbar">
+      <a href="index.html"><img src="images/logo.png" class="logo"></a>
+      
+      <nav>
+        <ul id="menuList">
+          
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <img src="images/menu.png" class="menu-icon" onclick="togglemenu()">
+    </div>
+
+    <div class="image-container">
+      <main class="grid">
+
+        <article class="card-1">
+          <img src="images/sale.png" id="sale-logo">
+          <h3>Wholesale</h3>
+          <a href="https://www.megaqmart.com/?fbclid=IwAR24eZdhVri6hTIgUnQF3p4bK3TlfD7vGy63XRCX8bj3WhZ-N-HJ3ymzMNM"><button id="btn">Get started</button></a>
+        </article>
+
+        <article class="card-2">
+         <img src="images/online.png" id="online-logo">
+         <h3>Online Palengke</h3>
+         <a href="https://onlinepalengke.megaqmart.com/?fbclid=IwAR07gzdjJKHHs6BsKh6m5h_ZVC0GYdYVv7G_752CCu-xD9qGnKocaE2Fsn0"><button id="btn">Get started</button></a>
+       </article>
+      </main>
+    </div>
+  
+
+  </div>
+
+
+
+<!-- Footer -->
+  <section class="footer">
+    <div class="social">
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+    <ul class="list">
+      <li>
+        <a href="#">Home</a>
+      </li>
+      <li>
+        <a href="#">Contact</a>
+      </li>
+      <li>
+        <a href="#">About</a>
+      </li>
+      <li>
+        <a href="#">Terms</a>
+      </li>
+      <li>
+        <a href="#">Privacy Policy</a>
+      </li>
+    </ul>
+    <p class="copyright">
+      Mega Q Mart © 2021 
+    </p>
+
+  </section>
+
+
+
+
+
+  <script>
+    var menuList = document.getElementById("menuList");
+
+    menuList.style.maxHeight = "0px";
+
+    function togglemenu() {
+      if (menuList.style.maxHeight == "0px")
+      {
+        menuList.style.maxHeight = "150px";
+      }
+      else
+      {
+        menuList.style.maxHeight = "0px";
+      }
+    }
+
+
+
+
+  </script>
+</body>
+</html>

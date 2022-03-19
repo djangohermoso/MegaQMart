@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>About Us</title>
+  <link rel="icon" href="images/icon.png">
+  <link rel="stylesheet" href="main.css">
+</head>
+
+
+<body>
+  <div class="container">
+    <div class="navbar">
+      <a href="index.html"><img src="images/logo.png" class="logo"></a>
+
+      <nav>
+        <ul id="menuList">
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <img src="images/menu.png" class="menu-icon" onclick="togglemenu()">
+    </div>
+
+
+    <div class="row">
+
+      <div class="col-1">
+        <h2>About Us</h2>
+        <h4>Mega Q Mart <span>(formerly known as Nepa Q Mart) is an established wet and dry market along the busy highway of EDSA, Cubao that provides quality fresh goods at affordable prices.</span></h4>
+      </div>
+
+      <div class="col-2">
+        <img class="vegetable" src="images/tomato.png">
+      </div>
+    </div>
+
+    <div class="row-1">
+
+      <div class="col-3">
+        <img class="vegetable-1" src="images/orange.jpg" alt="">
+      </div>
+
+      <div class="col-4">
+        <h2>Vision</h2>
+        <h4>Mega Q Marketing Corp. aims to advance as a major stakeholder in the local community in terms of sourcing and providing fresh market produce through a cost-effective, hassle-free food delivery service and strategic e-commerce marketing. </h4>
+      </div>
+    </div>
+    
+
+    <div class="row">
+
+      <div class="col-1">
+        <h2>Mission</h2>
+        <h4>Our mission is to offer customers premium goods at mega affordable prices. Order through your phone or the web and get it delivered in the comfort of your own place.Feel safe, at ease, and without stress.</h4>
+      </div>
+
+      <div class="col-2">
+        <img class="vegetable" src="images/heart.png">
+      </div>
+    </div>
+
+
+    <div class="row-1">
+
+      <div class="col-3">
+        <img class="vegetable-1" src="images/values.jpg" alt="">
+      </div>
+
+      <div class="col-4">
+        <h2>Core Values</h2>
+        <h4>Our team values artistry, innovation, attention to detail, decisiveness, responsiveness and most of all a fascination for all things food-related. We employ this attitude to create a customer service experience that is nothing short of excellent.</h4>
+      </div>
+    </div>
+
+
+    <div class="row">
+
+      <div class="col-1">
+        <h2>Fresh and Fast</h2>
+        <h4>We use quality ingredients from trusted suppliers to guarantee superb and budget-friendly products. Our crew upholds the importance of customer support and satisfaction. This includes fostering a friendly atmosphere while maintaining a professional character. Fresh merchandise, fast and reliable service</h4>
+      </div>
+
+      <div class="col-2">
+        <img class="fresh" src="images/fresh.png">
+      </div>
+    </div>
+
+
+
+    
+    
+
+    <div class="visit">
+      <h2>Visit Our Store</h2>
+    </div>
+
+    <div class="map-wrapper">
+      <iframe class="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.4983611980183!2d121.04557151535181!3d14.627628780334156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b72559c570a9%3A0x366aa108f376a03d!2sMega%20Q%20Mart%20Foods%20Corporation!5e0!3m2!1sen!2sph!4v1636210145008!5m2!1sen!2sph" width="1000" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <section class="footer">
+    <div class="social">
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+    <ul class="list">
+      <li>
+        <a href="#">Home</a>
+      </li>
+      <li>
+        <a href="#">Contact</a>
+      </li>
+      <li>
+        <a href="#">About</a>
+      </li>
+      <li>
+        <a href="#">Terms</a>
+      </li>
+      <li>
+        <a href="#">Privacy Policy</a>
+      </li>
+    </ul>
+    <p class="copyright">
+      Mega Q Mart © 2021 
+    </p>
+
+  </section>
+
+
+
+
+  <script>
+    var menuList = document.getElementById("menuList");
+
+    menuList.style.maxHeight = "0px";
+
+    function togglemenu() {
+      if (menuList.style.maxHeight == "0px")
+      {
+        menuList.style.maxHeight = "150px";
+      }
+      else
+      {
+        menuList.style.maxHeight = "0px";
+      }
+    }
+
+
+
+
+  </script>
+</body>
+</html>
